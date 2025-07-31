@@ -1,0 +1,44 @@
+# Requirements for the project
+
+# Core Scientific Computing
+numpy==1.24.4
+scipy==1.14.0
+pandas==2.2.2
+matplotlib==3.9.2
+scikit-learn==1.5.1
+
+# Deep Learning and AI
+torch==2.5.0a0+872d972e41.nv24.8
+torchvision==0.20.0a0
+einops==0.8.0
+flash_attn==2.4.2
+lightning-thunder==0.2.0.dev0
+lightning-utilities==0.11.6
+
+# Data Processing and I/O
+xarray
+netcdf4
+zarr==2.18.2
+pyarrow==16.1.0
+
+# GPU Computing (CUDA)
+cupy-cuda12x==13.2.0
+cudf==24.6.0
+cuml==24.6.0
+cugraph==24.6.0
+nvidia-cudnn-frontend==1.5.2
+
+# Development and Utilities
+pysteps
+wandb
+beartype
+scikit-image
+jupyterlab==4.2.4
+ipykernel==6.29.5
+
+# Additional Dependencies
+tqdm==4.66.5
+Pillow==10.4.0
+opencv==4.7.0
+librosa==0.10.1
+soundfile==0.12.1 
